@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Strings;
+using System;
 
 namespace Runner
 {
@@ -7,6 +8,11 @@ namespace Runner
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            var result =Duplicates.RemoveDuplicateChars("UsmanRafiq");
+            Console.WriteLine(result);
+
+            _ = Console.ReadKey();
         }
     }
 }
